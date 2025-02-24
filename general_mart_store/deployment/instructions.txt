@@ -1,0 +1,7 @@
+1. Clone the repository.
+2. Install dependencies for both frontend and backend.
+3. Configure environment variables.
+4. Run database migrations using schema.sql.
+5. Start backend using 'node server.js'.
+6. Start frontend using 'npm start' in frontend directory.
+7. Deploy backend using PM2, frontend using Vercel or Netlify.
