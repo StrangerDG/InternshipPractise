@@ -1,0 +1,29 @@
+/* src/styles/index.css */
+
+/* Import Tailwind's base, components, and utilities */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom styles can be added here if needed */
+
+/* Example custom styling for the container */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Optional: Adding some custom spacing and borders */
+input[type="text"] {
+  border-radius: 0.375rem;
+  padding-left: 1rem;
+}
+
+/* Optional: Styling buttons */
+button {
+  transition: background-color 0.2s ease;
+}
+
+button:hover {
+  background-color: #2c7f44; /* Darker green on hover */
+}
